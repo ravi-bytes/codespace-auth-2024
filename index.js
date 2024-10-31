@@ -1,1 +1,5 @@
-console.log("welcome to my fantastic project on Github Codespaces")
+const app = require('./app').default
+const {PORT} = process.env
+app.listen(PORT, () => {
+    console.log(`SERVER is running on PORT: ${PORT}`)
+})
