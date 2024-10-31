@@ -1,0 +1,18 @@
+{
+    "name": "codespace-auth-2024",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "index.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ravi-bytes/codespace-auth-2024"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+  
