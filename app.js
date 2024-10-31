@@ -1,11 +1,9 @@
-require('dotenv').config()
-
-import express from 'express'
+const express = require('express')
 
 const app = express()
 
 app.get("/", (req, res) => {
-    res.send("<h1>Server is running...</h1>")
+    res.send("<h1>Server is up and running....</h1>")
 })
 
-export default app
+module.exports = app
